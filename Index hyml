@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poli Truck Beds</title>
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f4f4; }
+    header { background: black; color: white; padding: 15px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 10px; text-decoration: none; }
+    .container { padding: 20px; }
+    .product { background: white; padding: 15px; margin: 10px; }
+    button { background: black; color: white; padding: 10px; border: none; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Poli Truck Beds</h1>
+  <p>Truck Beds • Tailgates • Bumpers</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Shop</a>
+  <a href="#">Add a Truck Bed</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+  <h2>Featured Products</h2>
+
+  <div class="product">
+    <h3>2012 Silverado Short Bed</h3>
+    <p>Price: $1,200</p>
+    <button>Buy Now</button>
+  </div>
+
+  <div class="product">
+    <h3>Ford F150 Tailgate</h3>
+    <p>Price: $450</p>
+    <button>Buy Now</button>
+  </div>
+
+  <h2>Add a Truck Bed</h2>
+
+  <form>
+    <input type="text" placeholder="Title"><br><br>
+    <input type="text" placeholder="Price"><br><br>
+    <textarea placeholder="Description"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+</div>
+
+</body>
+</html>
